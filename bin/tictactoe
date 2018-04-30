@@ -2,14 +2,9 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
-#!/usr/bin/env ruby
 
-require_relative '../lib/tic_tac_toe'
-
-puts "Welcome to Tic Tac Toe!"
-
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+oard = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 display_board(board)
 
-play(board)
+play
