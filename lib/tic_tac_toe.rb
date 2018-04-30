@@ -77,3 +77,5 @@ class TicTacToe
       (position_1 == "X" || position_1 == "O") && position_1 == position_2 && position_2 == position_3
     end  
   end
+  
+  
