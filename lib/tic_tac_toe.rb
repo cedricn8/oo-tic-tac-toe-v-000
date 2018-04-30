@@ -60,3 +60,4 @@ class TicTacToe
     end
     counter
   end
+
