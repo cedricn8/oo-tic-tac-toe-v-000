@@ -90,5 +90,8 @@ class TicTacToe
     (won? || draw? || full?)? true : false
   end
 
+  def winner
+    won?? board[(won?(board))[0]] : nil
+  end
 
 
