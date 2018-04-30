@@ -3,8 +3,6 @@ require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
 
-oard = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-
 display_board
 
 play
