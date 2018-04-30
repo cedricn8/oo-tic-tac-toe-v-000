@@ -4,4 +4,5 @@ require_relative '../lib/tic_tac_toe.rb'
 
 hello = TicTacToe.new
 
-play
+hello.display_board
+hello.play
